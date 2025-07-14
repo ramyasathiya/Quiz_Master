@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QuizMaster</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>QuizMaster</h1>
+
+  <div class="quiz-container">
+    <div class="question">
+      <label>1. What is 2 + 2?</label>
+      <input type="text" id="q1" placeholder="Your answer">
+    </div>
+    <div class="question">
+      <label>2. What is the Capital of France?</label>
+      <input type="text" id="q2" placeholder="Your answer">
+    </div>
+    <div class="question">
+      <label>3. What is the Full form of CSS?</label>
+      <input type="text" id="q3" placeholder="Your answer">
+    </div>
+
+    <button onclick="calculateScore(strictScoring)">Check Score</button>
+    <p id="output"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
